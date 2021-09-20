@@ -1,0 +1,12 @@
+(1) pip install django 
+(2) django-admin startproject project name
+(3) python manage.py runserver
+if error: python manage.py migrate
+Jango run on MVT (model View Template)
+(4) python manage.py startapp home
+(5) IN home : make urls.py 
+(6) COPY urls.py[project] to urls.py home
+(7) add path('',include('home.urls')) in urls.project
+(8) python manage.py makemigrations
+(9) python manage.py migrate
+(10) python manage.py makemigrations
